@@ -136,8 +136,8 @@ CACHES = {
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-TENCENT_SECRET_ID = 'AKIDscAWdYDgwykRMrNqt37CSiyMqDMI1d6Q'
-TENCENT_SECRET_KEY ='LZkp1zjFXP5dBjGoLvXxBB3kEWebM1Vz'
+TENCENT_SECRET_ID = '***********************'
+TENCENT_SECRET_KEY ='***********************'
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": ["api.serializer.auth.GeneralAuthentication"],
